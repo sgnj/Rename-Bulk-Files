@@ -2,7 +2,7 @@ import os
 
 def main():
     i = 0
-    path = "C:/Users/Githu Njenga/Desktop/DCIM/100CANON/"
+    path = "C:/Users/Githu Njenga/Desktop/DCIM/100CANON/" #include custom file path
     for filename in os.listdir(path):
         my_dest = "image" + str(i) + ".jpg"
         my_source = path + filename
